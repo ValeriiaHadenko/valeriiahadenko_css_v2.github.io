@@ -1,0 +1,12 @@
+h1, h2{
+    color: rgb(8, 60, 85);
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 46px;
+}

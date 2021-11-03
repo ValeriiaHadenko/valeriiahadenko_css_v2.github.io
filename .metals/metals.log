@@ -1,0 +1,25 @@
+[0m2021.10.21 23:23:08 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.21 23:23:16 INFO  time: initialize in 8.88s[0m
+[0m2021.10.21 23:23:19 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.21 23:23:19 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.21 23:41:23 INFO  shutting down Metals[0m
+[0m2021.10.24 00:15:11 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.24 00:15:17 INFO  time: initialize in 5.86s[0m
+[0m2021.10.24 00:15:19 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.24 00:15:19 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.24 16:24:32 INFO  shutting down Metals[0m
+[0m2021.10.26 13:01:01 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.26 13:01:12 INFO  time: initialize in 11s[0m
+[0m2021.10.26 13:01:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.26 13:01:14 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.26 15:56:06 INFO  shutting down Metals[0m
+[0m2021.10.27 00:06:38 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.27 00:06:45 INFO  time: initialize in 7.67s[0m
+[0m2021.10.27 00:06:47 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.27 00:06:47 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.27 11:28:42 INFO  shutting down Metals[0m
+[0m2021.11.02 19:45:49 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io' for client Visual Studio Code 1.61.2.[0m
+[0m2021.11.02 19:45:57 INFO  time: initialize in 8.19s[0m
+[0m2021.11.02 19:45:59 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.02 19:45:59 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.03 13:11:30 INFO  shutting down Metals[0m

@@ -1,0 +1,79 @@
+.contact-works{
+    display: flex;
+    justify-content: center;
+	padding: 35px;
+}
+
+.contact-form{
+    width: 800px;
+}
+
+.contact-form .input-row{
+	display: flex;
+    justify-content: space-between;
+}
+
+.input-name, .input-email{
+	width: 40%;
+	border-radius: 8px;
+	border: none;
+	padding: 18px 0;
+	padding-left: 16px;
+    color: rgb(27, 27, 27);
+    font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+    box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
+}
+
+.input-title{
+	width: 98%;
+	border-radius: 8px;
+	border: none;
+	padding: 18px 0;
+	padding-left: 16px;
+    color: rgb(27, 27, 27);
+    font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+    box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
+}
+
+.contact-form textarea{
+	width: 98%;
+	border-radius: 12px;
+	border: none;
+	padding: 18px 0;
+	padding-left: 16px;
+    color: rgb(27, 27, 27);
+    font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+    box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
+}
+
+.contact-form > * + *{
+	margin-top: 30px;
+}
+
+.submit-button-div-contact{
+	display: flex;
+	justify-content: center;
+}
+
+.submit-button-contact{
+	padding: 20px 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+	background-color: #ffffff;
+    color: rgb(8, 60, 85);
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 20px
+    
+}
+
+.submit-button-contact:hover{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    transition: .5s ease-out;
+    transition-delay: 0.1s;
+}
