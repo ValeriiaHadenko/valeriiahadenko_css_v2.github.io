@@ -29,3 +29,4 @@
 [0m2021.11.04 16:46:38 WARN  no build tool detected in workspace 'C:\Users\lerag\Documents\GitHub\valeriiahadenko_css_v2.github.io'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 но€б. 04, 2021 5:50:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2021.11.04 21:29:07 INFO  shutting down Metals[0m

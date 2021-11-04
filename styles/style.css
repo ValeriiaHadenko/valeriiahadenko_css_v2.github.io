@@ -1,10 +1,12 @@
 .body_hide {
+    background-color: black;
 	opacity: 0;
-	transition: 0.5s opacity ease-in-out;
+	transition: 0.3s opacity ease-out;
 }
 
 .body_visible {
 	opacity: 1;
+    user-select: none;
 }
 
 img.background {
@@ -64,3 +66,39 @@ img.background {
 #h1-article{
     padding-top: 200px;
 }
+
+
+#popup
+{
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    text-align:center;
+    z-index: 3;
+}
+
+#popup h1:hover
+{
+  cursor: pointer;  
+}
+
+#popup img {
+	position: relative;
+	margin: 10% auto;
+	z-index: 1;
+	height: 500px;
+    width: 800px;
+
+}
+.body_hide {
+	opacity: 0;
+	transition: 0.5s opacity ease-in-out;
+	}
+.body_visible {
+	opacity: 1;
+}
+
+
