@@ -3,8 +3,8 @@
     box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
 }
 
-.diploma-info img{
-    border: 1px solid;
-    margin: 30px 25px 60px 0;
-}
 
+img.clock{
+    box-shadow: none;
+    width: 300px;
+}

@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/table.css">
 </head>
 
-<body>
+<body class="body_hide">
   <img src="img/bady-abbas.jpg" alt="" class="background">
 
   <div class="container">
@@ -37,71 +37,72 @@
       <li class="nav-item"><a href="gallery.html">Галерея</a></li>
       </ul>
     </div>
-    <div class="blog">
-      <div class="img-blog">
-        <img class="my-photo" src="img/Photo.jpg" alt="Мое фото">
-      </div>
-      <div class="text-blog">
-        <div class="table-main">
-          <h2>Контактні данні</h2>
-        </div>
 
-        <table class="table-info">
+    <div class="blog">
+      <img class="my-photo" src="img/Photo.jpg" alt="Мое фото">
+      <div>
+        <h1 onclick="IsShow('about-me')">Контактні данні</h1>
+        <div id="about-me">
+          <table class="table-info">
             <tr>
-              <th><p>ПІБ</p></th>
-              <td><p>Гаденко Валерія Юріївна</p></td>
+              <th>ПІБ</th>
+              <td>Гаденко Валерія Юріївна</td>
             </tr>
             <tr>
-              <th><p>Стать</p></th>
-              <td><p>Стать</p></td>
+              <th>Стать</th>
+              <td>Стать</td>
             </tr>
             <tr>
-              <th><p>Дата народження</p></th>
-              <td><p>04.10.2002</p></td>
+              <th>Дата народження</th>
+              <td>04.10.2002</td>
             </tr>
             <tr>
-              <th><p>Місце народження</p></th>
-              <td><p>Дніпропетровська об, м. Кам'янське</p></td>
+              <th>Місце народження</th>
+              <td>Дніпропетровська об, м. Кам'янське</td>
             </tr>
             <tr>
-              <th><p>Громадянство</p></th>
-              <td><p>Українка</p></td>
+              <th>Громадянство</th>
+              <td>Українка</td>
             </tr>
             <tr>
-              <th><p>Сімейний статус</p></th>
-              <td><p>не заміжня</p></td>
+              <th>Сімейний статус</th>
+              <td>не заміжня</td>
             </tr>
             <tr>
-              <th><p>Домашня адреса</p></th>
-              <td><p>м.Кам'янське, вул ********, буд **</p></td>
+              <th>Домашня адреса</th>
+              <td>м.Кам'янське, вул ********, буд **</td>
             </tr>
             <tr>
-              <th><p>Телефон</p></th>
-              <td><p>+380*********</p></td>
+              <th>Телефон</th>
+              <td>+380*********</td>
             </tr>
             <tr>
-              <th><p>Email</p></th>
-              <td><p>valeriia.hadenko@nure.ua</p</td>
+              <th>Email</th>
+              <td>valeriia.hadenko@nure.ua</td>
             </tr>
           </table>
-          <div class="table-lang">
-            <h2>Володіння іноземними мовами</h2>
-            <table class="leng-info">
-                <tr>
-                  <td><p>Англійська</p> </td>
-                  <td><a href="https://drive.google.com/file/d/1xydDqc8ECkNR5sVTdm8LcRlVF7Yq-7g3/view?usp=sharing" target="_blank">B1 (intermediate)</a></td>
-                </tr>
-                <tr>
-                  <td><p>Російська</p></td>
-                  <td><p>Високий</p> </td>
-                </tr>
-                <tr>
-                  <td><p>Польська</p> </td>
-                  <td><p>Середній</p> </td>
-                </tr>
-            </table>
-            </div>
+        </div>
+
+        <h1 onclick="IsShow('foreign-languages')">Володіння іноземними мовами</h1>
+        <div id="foreign-languages">
+          <table class="leng-info">
+            <tr>
+              <td>Англійська</td>
+              <td><a href="https://drive.google.com/file/d/1xydDqc8ECkNR5sVTdm8LcRlVF7Yq-7g3/view?usp=sharing"
+                  target="_blank">B1 (intermediate)</a></td>
+            </tr>
+            <tr>
+              <td>Російська</td>
+              <td>Високий</td>
+            </tr>
+            <tr>
+              <td>Польська</td>
+              <td>Середній</td>
+            </tr>
+          </table>
+        </div>
       </div>
+
     </div>
   </div>
   </div>

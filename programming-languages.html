@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/table.css">
 </head>
 
-<body>
+<body class="body_hide">
   <img src="img/bady-abbas.jpg" alt="" class="background">
 
   <div class="container">
@@ -37,32 +37,35 @@
       <li class="nav-item"><a href="gallery.html">Галерея</a></li>
       </ul>
     </div>
-	
-	<h1 id="h1-article">МОЇ ЗНАННЯ РІЗНИХ МОВ ПРОГРАМУВАННЯ</h1>
-  <div class="article">
-    <table width="700px">
-			<tr>
-				<th>Мова</th>
-				<th>Рівень володіння</th>
-			</tr>
-			<tr>
-				<td>C++</td>
-				<td rowspan="2">Середній</td>
-			</tr>
-			<tr>
-				<td>C#</td>
-			</tr>
-			<tr>
-				<td>Python</td>
-				<td>Низький</td>
-			</tr>
-			<tr>
-				<td>Scala</td>
-				<td>Низький</td>
-			</tr>
-    </table>
-  </div>
 
-  <script type="text/javascript" src="js/script.js"></script>
+    <h1 onclick="IsShow('article-text-4')" id="h1-article">МОЇ ЗНАННЯ РІЗНИХ МОВ ПРОГРАМУВАННЯ</h1>
+    <div id="article-text-4">
+      <div class="article">
+        <table width="700px">
+          <tr>
+            <th>Мова</th>
+            <th>Рівень володіння</th>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td rowspan="2">Середній</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Низький</td>
+          </tr>
+          <tr>
+            <td>Scala</td>
+            <td>Низький</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>

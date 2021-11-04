@@ -1,7 +1,6 @@
 .contact-works{
     display: flex;
     justify-content: center;
-	padding: 35px;
 }
 
 .contact-form{
@@ -36,7 +35,17 @@
 	font-size: 15px;
     box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
 }
-
+.input-phone{
+	width: 98%;
+	border-radius: 8px;
+	border: none;
+	padding: 18px 0;
+	padding-left: 16px;
+    color: rgb(27, 27, 27);
+    font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+    box-shadow: 16px 16px 16px -1px rgba(34, 60, 80, 0.35);
+}
 .contact-form textarea{
 	width: 98%;
 	border-radius: 12px;

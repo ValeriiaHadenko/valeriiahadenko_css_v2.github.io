@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="styles/table.css">
 </head>
 
-<body>
+<body class="body_hide">
   <img src="img/bady-abbas.jpg" alt="" class="background">
 
   <div class="container">
@@ -39,16 +39,22 @@
       </ul>
     </div>
 
-	<h1 id="h1-article">МОЇ УЛЮБЛЕНІ ШКІЛЬНІ ПРЕДМЕТИ</h1>
-	<div class="article">
-		<a href="https://kolegiym-16.klasna.com" target="_blank"><img src="img/school-16.jpg" alt="School" width="500"></a>
-		<ul id="school">
-			<li>Інформатика</li>
-			<li>Математика</li>
-			<li>Історія</li>
-			<li>Зарубіжня література</li>
-		</ul>
-	</div>
-  
+    <h1 onclick="IsShow('school')" id="h1-article">МОЇ УЛЮБЛЕНІ ШКІЛЬНІ ПРЕДМЕТИ</h1>
+    <div id="school">
+      <div class="article">
+        <a href="https://kolegiym-16.klasna.com" target="_blank"><img src="img/school-16.jpg" alt="School"
+            width="500"></a>
+        <ul>
+          <li>Інформатика</li>
+          <li>Математика</li>
+          <li>Історія</li>
+          <li>Зарубіжня література</li>
+        </ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
 </body>
+
 </html>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles/text.css">
   <link rel="stylesheet" href="styles/heading.css">
   <link rel="stylesheet" href="styles/table.css">
+  <link rel="stylesheet" href="styles/form.css">
 </head>
 
 <body>
@@ -38,25 +39,29 @@
       </ul>
     </div>
 
-	<h1>Обратний звязок</h1>
+    <h1 onclick="IsShow('article-text-10')" style="padding-top:90px"> Обратний звязок</h1>
+    <div id="article-text-10">
+      <div class="contact-works">
+        <div class="container">
+          <form action="post" class="contact-form">
+            <div class="input-row">
+              <input type="text" placeholder="Your Name" class="input-name">
+              <input type="email" placeholder="Your Email" class="input-email" id="email"
+                onchange="onchange_form(this)">
+            </div>
+            <input type="text" placeholder="Your Phone" class="input-phone" id="phone" onchange="onchange_form(this)">
+            <input type="text" placeholder="Your Title" class="input-title">
+            <textarea name="comment" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
+            <div class="submit-button-div-contact">
+              <input type="submit" class="submit-button-contact" value="send message" id="send">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
-	<div class="contact-works">
-		<div class="container">
-			<!-- <span class="contact-main-text"><h2>Contact us</h2></span> -->
-			<form action="post" class="contact-form">
-				<div class="input-row">
-					<input type="text" placeholder="Your Name" class="input-name">
-					<input type="email" placeholder="Your Email" class="input-email">
-				</div>
-					<input type="text" placeholder="Your Title" class="input-title">
-				<textarea name="" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>	
-					<div class="submit-button-div-contact">
-						<input type="submit" class="submit-button-contact" value="send message">
-					</div>
-			</form>
-		</div>
-	</div>
 
-  <script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </htm

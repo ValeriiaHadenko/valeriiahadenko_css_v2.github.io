@@ -1,3 +1,11 @@
+body_hide {
+	opacity: 0;
+	transition: 0.5s opacity ease-in-out;
+	}
+.body_visible {
+	opacity: 1;
+}
+
 img.background {
     min-height: 100%;
     min-width: 640px;
@@ -33,30 +41,21 @@ img.background {
     padding: 30px 0;
     display: flex;
     justify-content: center;
-}
-.article img{
-    margin:  0 40px;
+    align-items: center;
 }
 
-.article ul{
-    display: flex;
-    flex-direction: column;
+#computer-time .article img{
+    margin-left: 60px;
 }
-#school{
-    padding-top: 80px;
-}
-
-.article .clock{
-    box-shadow: none;
-    width: 300px;
+#school .article img{
+    margin-right: 60px;
 }
 
-.particl{
-    padding-top: 100px;;
+.article p {
     width: 500px;
 }
 .article-text{
-    padding: 30px 40px;
+    padding: 30px 60px;
     width: 700px;
 }
 
