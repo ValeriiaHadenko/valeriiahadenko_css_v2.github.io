@@ -1,7 +1,8 @@
-body_hide {
+.body_hide {
 	opacity: 0;
 	transition: 0.5s opacity ease-in-out;
-	}
+}
+
 .body_visible {
 	opacity: 1;
 }
@@ -57,15 +58,6 @@ img.background {
 .article-text{
     padding: 30px 60px;
     width: 700px;
-}
-
-.nature{
-    display: flex;
-    justify-content: center;
-}
-.nature-img{
-    padding: 20px 0;
-    width: 1100px;
 }
 
 

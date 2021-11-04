@@ -61,3 +61,24 @@ function onchange_form(elem) {
     document.getElementById("send").disabled = !(corr_email && corr_phone);
 }
 
+
+
+
+function slider() {
+    let offset = 0;
+    const sliderLiner = document.querySelector('.slider-line');
+
+    document.querySelector('.slider-next').addEventListener('click', function () {
+        offset += 828;
+        if (offset > 2484) offset = 0;
+        sliderLiner.style.left = -offset + 'px';
+    });
+
+    document.querySelector('.slider-prev').addEventListener('click', function () {
+        offset -= 828;
+        if (offset < 0) offset = 2484;
+        sliderLiner.style.left = -offset + 'px';
+    });
+}
+
+slider();
