@@ -80,7 +80,7 @@ img.background {
     z-index: 3;
 }
 
-#popup h1:hover
+#popup h3:hover
 {
   cursor: pointer;  
 }
