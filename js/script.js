@@ -20,7 +20,7 @@ function TableEvents() {
     var allTableRows = document.getElementsByTagName("tr");
     for (tr of allTableRows) {
         tr.onmouseenter = tr.onmouseleave = function (event) {
-            if (event.type == 'mouseleave') event.target.style.background = color;
+            if (event.type === 'mouseleave') event.target.style.background = color;
             else {
                 color = event.target.style.background;
                 event.target.style.background = "#e0e0e0";
@@ -54,15 +54,12 @@ function onchange_form(elem) {
 
 
 
-
-
-
 function KeyHot() {
-    document.onkeydown = func1;
-    var Array = ["index.html", "computer-time.html", "programming-languages.html", "computer-time.html", "hobby.html", "ai.html", "contact.html", "gallery.html", "plans-future.html"] 
-    function func1(event) {
-        if (event.altKey && event.keyCode > 48 && event.keyCode <= 48 + Array.length) 
-            document.location = Array[event.keyCode - 49];
+    document.onkeydown = funHotKey;
+    var pageArray = ["index.html", "computer-time.html", "programming-languages.html", "computer-time.html", "hobby.html", "ai.html", "contact.html", "gallery.html", "plans-future.html"] 
+    function funHotKey(event) {
+        if (event.altKey && event.keyCode > 48 && event.keyCode <= 48 + pageArray.length) 
+            document.location = pageArray[event.keyCode - 49];
     }
 }
 
